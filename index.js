@@ -48,7 +48,7 @@ console.log(CountHead("chitranjan"));
 let s="chitranjan"
 let vowel="aeiouAEIOU"
 let count=0 ;
-for(i=0; i<s.length; i++){
+for(let i=0; i<s.length; i++){
     if(vowel.includes(s[i])){
         count++;
     }
@@ -93,7 +93,7 @@ let count1=0;
 for(let i=0; i<b1.length; i++){
     count1++
 }
-console.log(i);
+console.log(count1);
 
 // Q6. Find the Winner 
 
